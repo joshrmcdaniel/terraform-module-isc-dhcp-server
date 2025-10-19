@@ -13,7 +13,7 @@ Assumptions:
 then install bind9 as well.
 - Authentication via an ssh key, and user has NOPASSWD sudo access
 
-I use this on my L3 switch stack, DNS is still pointed at my firewall, but I
+I use this on my L3 switch stack, DNS is still pointed at my firewall, but
 I domain override the DNS resolver to point at my pi for my internal FQDN.
 
 Example usage can be found under [example](example/)
